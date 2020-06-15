@@ -1,7 +1,5 @@
 #lang pollen
 
-◊title{Current Electricity}
-
 The study of electric charge in motion.
 
 The flow of ◊em{net} charge through a conductor constitutes an ◊strong{electic current}.
@@ -35,12 +33,12 @@ This average velocity of electron slows velocity ◊em{(in comparison of random 
 
 ◊strong{Drift velocity}: Average velocity gained by the free electron of conductor is known as drift velocity.
 ◊div['((class "current7"))]{◊img['((src "drift-vel-formula.png"))]}
-                   ◊ul{
-                   where,◊li{e= charge of electron}
-                         ◊li{m= mass of electron}
-                         ◊li{τ= relaxation time}
-                         ◊li{E= Electric filed}
-}
+                   ◊pre{where, e= charge of electron}
+                         ◊pre{   m= mass of electron}
+                         ◊pre{   τ= relaxation time}
+                         ◊pre{   E= Electric filed}
+
+◊img['((src "drawing.png"))]
 
 It is noted that the direction of conventional current established the assumption to the flow (+ve) charge in metal/conductor.
 
@@ -49,13 +47,12 @@ When source of E.M.F is applied across the conductor the potential difference is
 
 Hence, electric current flowing through the conductor .i.e,
 ◊div['((class "current10"))]{◊img['((src "drift-velocity-prove1.png"))]}
-◊ul{
-                   where,◊li{n=number of electron in given per unit volume}
-                         ◊li{e=charge of electron}
-}
+
+                   ◊pre{where, n=number of electron in given per unit volume}
+                         ◊pre{       e=charge of electron}
 ◊div['((class "current11"))]{◊img['((src "drift-velocity-prove2.png"))]}
 
-Also, ◊div['((class "current12"))]{◊img['((src "drift-velocity2.png"))]}
+◊pre{Also, ◊img['((src "drift-velocity2.png"))]}
 
 ◊div['((class "current13"))]{◊img['((src "currentdensity.png"))]}
 

@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-  <h1 class="current electricity">Current Electricity</a></h1>
+   <div class="container demo">
+   <div class="content">
+      <div id="large-header" class="large-header">
+         <canvas id="space-canvas"></canvas>
+         <h1 class="current-electricity"><span class="thin">Current</span> Electricity</h1>
+      </div>
+   </div>
+</div>
 
   ◊(->html doc)
   </body>
