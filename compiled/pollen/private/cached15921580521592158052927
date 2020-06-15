@@ -1,0 +1,1 @@
+((3) 0 () 0 () () (u . #"<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>title</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n  </head>\n  <body>\n\n  <h1 class=\"current electricity\"><a href=\"/current_elec_intro.html\">Current Electricity</a></h1>\n\n  \342\227\212(->html doc)\n  </body>\n</html>"))

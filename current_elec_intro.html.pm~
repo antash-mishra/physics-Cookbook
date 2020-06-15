@@ -1,0 +1,11 @@
+#lang pollen
+◊title{Current Electricity}
+
+The study of electric charge in motion.
+
+The flow of ◊em{net} charge through a conductor constitutes an ◊strong{electic current}.
+
+The amount of net charge flowing through the area per unit time.
+
+◊img['((src "https://bit.ly/2YvGSOF")(align "center")(border "0") (width "153") (height "47"))] 
+
