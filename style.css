@@ -10,6 +10,7 @@ html { font-size: 2.4vw; }
       font-weight: normal;
       font-stretch: normal;
 }
+
 @font-face {
 
       font-family: concourse_t3_italic;
@@ -29,10 +30,46 @@ html { font-size: 2.4vw; }
       src: url("equity_text_a_italic.woff");
 }
 
-body,pre {
+body {
        font-family: equity_text_a_italic;
-       font-size: 20.8333px;
+       font-size: 28.8333px;
        text-align: left;
+       margin-left: auto;
+       margin-right: auto;
+       max-width:800px;
+}
+
+pre {
+      font-family: equity_text_a_italic;
+       font-size: 28.8333px;
+}
+
+
+a.nav-left {
+       left:0;
+       padding-left: 1rem;
+       border-left: 0.8rem solid white;
+}
+
+a.nav-right {
+       right: 0;
+       padding-right: 1rem;
+       border-right:0.8rem solid white;
+}
+
+a.nav-left, a.nav-right {
+       display: block;
+       position: fixed;
+       top: 0;
+       bottom: 0;
+       width: 3.5rem;
+       font-family: body-text-face;
+       color: rgba(0,0,0,0);
+       transition-property: color;
+       transition-duration: 0.15s;
+       padding-top: 10rem;
+       transition-property: border-color;
+       transition-duration: 0.15s;
 }
 
 h1 {
@@ -51,44 +88,17 @@ strong {
 font-family: concourse_t3_italic;
 }
 
-.large-header {
-   position: relative;
-   width: 100%;
-   background: #111;
-   overflow: hidden;
-   background-size: cover;
-   background-position: center center;
-   z-index: 1;
+#doc {
+ position: relative;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-rendering: optimizeLegibility;
 }
 
-.demo .large-header {
-   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+.current, .current2, .current3, .current7, .current9, .current10, .current11, .current13 {
+       display:block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
 }
-
-.current-electricity {
-   position: absolute;
-   margin: 0;
-   padding: 0;
-   color: #F9F1E9;
-   text-align: center;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate3d(-50%, -50%, 0);
-   transform: translate3d(-50%, -50%, 0);
-}
-
-.demo .current-electricity {
-   text-transform: uppercase;
-   font-size: 4.2em;
-   letter-spacing: 0.1em;
-}
-
-.current-electricity .thin {
-   font-weight: 200;
-}
-
-@media only screen and (max-width: 768px) {
-   .demo .current-electricity {
-      font-size: 3em;
-   }
-}
+     

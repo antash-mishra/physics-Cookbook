@@ -1,5 +1,6 @@
 #lang pollen
 
+◊div['((id "doc"))]{
 The study of electric charge in motion.
 
 The flow of ◊em{net} charge through a conductor constitutes an ◊strong{electic current}.
@@ -16,7 +17,7 @@ Unit of current is Ampere.
 
 Electric current has both ◊strong{magnitude and direction,} yet it is a ◊em{scalar quantity}.
 
-◊h3{Metallic Conductivity}
+◊h3{Metallic Conductance}
 
 The metal consists of large number of atoms,so it has large number of free electrons.The free electrons are in random
 motion .There is no any preffered directions of motion.Thus there is no net flow of charge in any direction.
@@ -59,8 +60,10 @@ Hence, electric current flowing through the conductor .i.e,
 Here, J is ◊em{current density}
 
 Current density is defined as amount of current flowing through the conductor per unit cross sectional area.It is a ◊strong{vector quantity} 
+}
+◊a['((class "nav-left") (href "#")){prev}]
+◊a['((class "nav-right") (href "#")){next}]
 
-                        
 
               
 
