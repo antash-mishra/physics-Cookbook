@@ -39,7 +39,7 @@ This average velocity of electron slows velocity ◊em{(in comparison of random 
                          ◊pre{   τ= relaxation time}
                          ◊pre{   E= Electric filed}
 
-◊img['((src "drawing.png"))]
+◊img['((src "g508.png"))]
 
 It is noted that the direction of conventional current established the assumption to the flow (+ve) charge in metal/conductor.
 
@@ -60,9 +60,31 @@ Hence, electric current flowing through the conductor .i.e,
 Here, J is ◊em{current density}
 
 Current density is defined as amount of current flowing through the conductor per unit cross sectional area.It is a ◊strong{vector quantity} 
+
+◊strong{Mobility}: It is defined as the ratio of drift velocity to electric field.It is represented by ◊strong{µ}.
+◊div['((class "current14"))]{◊img['((src "mobility2.png"))]}
+
+◊h3{Deduction of ohm's law}
+
+The current through the conductor of any area of cross-section(A) is given by
+◊div['((class "current15"))]{◊img['((src "curren.png"))]}
+
+where,
+n=no. of electron per unit volume
+e=charge of electron
+
+As we know that,
+◊div['((class "current15"))]{◊img['((src "driftvelocity.png"))]}      
+◊pre{                                 then,}
+◊div['((class "current16"))]{◊img['((src "ohmslaw.png"))]}
+◊pre{                                Here, R = Resistance}
+◊div['((class "current17"))]{◊img['((src "resistance.png"))]}
+
+From above equation, we know that V ∝ I. This is ohm's law.
 }
 ◊a['((class "nav-left") (href "#")){prev}]
 ◊a['((class "nav-right") (href "#")){next}]
+
 
 
               

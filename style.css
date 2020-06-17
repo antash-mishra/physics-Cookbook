@@ -95,10 +95,11 @@ font-family: concourse_t3_italic;
     text-rendering: optimizeLegibility;
 }
 
-.current, .current2, .current3, .current7, .current9, .current10, .current11, .current13 {
+.current, .current2, .current3, .current7, .current9, .current10, .current11, .current13, .current14, .current15, .current16, .current17 {
        display:block;
        margin-left: auto;
        margin-right: auto;
-       width: 50%;
+       width:50%;
+       height:auto;
 }
      
